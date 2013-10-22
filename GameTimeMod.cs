@@ -65,6 +65,9 @@ namespace GameTimeMod
 				return String.Format("{0:d}:{1:d2}", (int)t.TotalMinutes, t.Seconds);
 			}
 		}
+
+		public void onConnect (OnConnectData data) {
+		}
 	}
 }
 
